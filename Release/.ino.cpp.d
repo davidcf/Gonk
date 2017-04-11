@@ -15,13 +15,13 @@
  /Applications/sloeber.app/Contents/Eclipse/arduinoPlugin/libraries/Servo/1.1.2/src/avr/ServoTimers.h \
  /Users/destroyer/Documents/Arduino/libraries/Oscillator/Oscillator.h \
  /Users/destroyer/Documents/Arduino/libraries/US/US.h \
- /Users/destroyer/Documents/Arduino/libraries/Gonk/Gonk.h \
+ /Users/destroyer/Documents/Arduino/libraries/Gonk/src/Gonk.h \
  /Applications/sloeber.app/Contents/Eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.17/libraries/EEPROM/src/EEPROM.h \
  /Users/destroyer/Documents/Arduino/libraries/LedMatrix/LedMatrix.h \
  /Users/destroyer/Documents/Arduino/libraries/BatReader/BatReader.h \
- /Users/destroyer/Documents/Arduino/libraries/Gonk/Gonk_mouths.h \
- /Users/destroyer/Documents/Arduino/libraries/Gonk/Gonk_sounds.h \
- /Users/destroyer/Documents/Arduino/libraries/Gonk/Gonk_gestures.h \
+ /Users/destroyer/Documents/Arduino/libraries/Gonk/src/Gonk_mouths.h \
+ /Users/destroyer/Documents/Arduino/libraries/Gonk/src/Gonk_sounds.h \
+ /Users/destroyer/Documents/Arduino/libraries/Gonk/src/Gonk_gestures.h \
  ../Gonk.ino
 
 /Applications/sloeber.app/Contents/Eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.17/cores/arduino/Arduino.h:
@@ -56,7 +56,7 @@
 
 /Users/destroyer/Documents/Arduino/libraries/US/US.h:
 
-/Users/destroyer/Documents/Arduino/libraries/Gonk/Gonk.h:
+/Users/destroyer/Documents/Arduino/libraries/Gonk/src/Gonk.h:
 
 /Applications/sloeber.app/Contents/Eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.17/libraries/EEPROM/src/EEPROM.h:
 
@@ -64,10 +64,10 @@
 
 /Users/destroyer/Documents/Arduino/libraries/BatReader/BatReader.h:
 
-/Users/destroyer/Documents/Arduino/libraries/Gonk/Gonk_mouths.h:
+/Users/destroyer/Documents/Arduino/libraries/Gonk/src/Gonk_mouths.h:
 
-/Users/destroyer/Documents/Arduino/libraries/Gonk/Gonk_sounds.h:
+/Users/destroyer/Documents/Arduino/libraries/Gonk/src/Gonk_sounds.h:
 
-/Users/destroyer/Documents/Arduino/libraries/Gonk/Gonk_gestures.h:
+/Users/destroyer/Documents/Arduino/libraries/Gonk/src/Gonk_gestures.h:
 
 ../Gonk.ino:

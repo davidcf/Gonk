@@ -18,7 +18,7 @@ RM := rm -f
 -include libraries/Oscillator/subdir.mk
 -include libraries/LedMatrix/LedMatrix_Code/subdir.mk
 -include libraries/LedMatrix/subdir.mk
--include libraries/Gonk/subdir.mk
+-include libraries/Gonk/src/subdir.mk
 -include libraries/BatReader/BatReader_Example/subdir.mk
 -include libraries/BatReader/subdir.mk
 -include core/core/subdir.mk

@@ -23,14 +23,14 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/core/variant}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Servo}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Servo/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/OTTO_smooth_criminal}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/US}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Oscillator}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/EEPROM}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/EEPROM/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Gonk}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/US}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/BatReader}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Oscillator}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/LedMatrix}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Gonk}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Gonk/src}&quot;"/>
 								</option>
 								<inputType id="io.sloeber.compiler.cpp.sketch.input.1439051080" name="CPP source files" superClass="io.sloeber.compiler.cpp.sketch.input"/>
 							</tool>
@@ -40,14 +40,14 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/core/variant}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Servo}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Servo/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/OTTO_smooth_criminal}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/US}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Oscillator}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/EEPROM}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/EEPROM/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Gonk}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/US}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/BatReader}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Oscillator}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/LedMatrix}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Gonk}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Gonk/src}&quot;"/>
 								</option>
 								<inputType id="io.sloeber.compiler.c.sketch.input.985507929" name="C Source Files" superClass="io.sloeber.compiler.c.sketch.input"/>
 							</tool>
@@ -57,14 +57,14 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/core/variant}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Servo}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Servo/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/OTTO_smooth_criminal}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/US}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Oscillator}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/EEPROM}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/EEPROM/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Gonk}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/US}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/BatReader}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Oscillator}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/LedMatrix}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Gonk}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Gonk/src}&quot;"/>
 								</option>
 								<inputType id="io.sloeber.compiler.S.sketch.input.1708022626" name="Assembly source files" superClass="io.sloeber.compiler.S.sketch.input"/>
 							</tool>

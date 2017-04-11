@@ -39,7 +39,7 @@ SUBDIRS := \
 core/core \
 libraries/BatReader \
 libraries/BatReader/BatReader_Example \
-libraries/Gonk \
+libraries/Gonk/src \
 libraries/LedMatrix \
 libraries/LedMatrix/LedMatrix_Code \
 libraries/Oscillator \
