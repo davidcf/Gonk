@@ -3,6 +3,7 @@
 #include <Oscillator.h>
 #include <US.h>
 #include <Gonk.h>
+
 Gonk Gonk;
 
   #define PIN_YL 2 //servo[2]
@@ -14,8 +15,6 @@ Gonk Gonk;
 int T=1000;              //Initial duration of movement
 int moveId=0;            //Number of movement
 int moveSize=15;         //Asociated with the height of some movementsgkk
-//---------------------------------------------------------
-
 
 void setup(){
 
