@@ -31,6 +31,12 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/LedMatrix}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Gonk}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Gonk/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Adafruit_SSD1306}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/SPI}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/SPI/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Wire}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Wire/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Adafruit_GFX_Library}&quot;"/>
 								</option>
 								<inputType id="io.sloeber.compiler.cpp.sketch.input.1439051080" name="CPP source files" superClass="io.sloeber.compiler.cpp.sketch.input"/>
 							</tool>
@@ -48,6 +54,12 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/LedMatrix}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Gonk}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Gonk/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Adafruit_SSD1306}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/SPI}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/SPI/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Wire}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Wire/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Adafruit_GFX_Library}&quot;"/>
 								</option>
 								<inputType id="io.sloeber.compiler.c.sketch.input.985507929" name="C Source Files" superClass="io.sloeber.compiler.c.sketch.input"/>
 							</tool>
@@ -65,6 +77,12 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/LedMatrix}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Gonk}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Gonk/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Adafruit_SSD1306}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/SPI}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/SPI/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Wire}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Wire/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Adafruit_GFX_Library}&quot;"/>
 								</option>
 								<inputType id="io.sloeber.compiler.S.sketch.input.1708022626" name="Assembly source files" superClass="io.sloeber.compiler.S.sketch.input"/>
 							</tool>

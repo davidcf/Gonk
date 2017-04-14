@@ -42,6 +42,16 @@
 			<locationURI>ECLIPSE_HOME/arduinoPlugin/packages/arduino/hardware/avr/1.6.17/variants/eightanaloginputs</locationURI>
 		</link>
 		<link>
+			<name>libraries/Adafruit_GFX_Library</name>
+			<type>2</type>
+			<location>/Users/destroyer/Documents/Arduino/libraries/Adafruit_GFX_Library</location>
+		</link>
+		<link>
+			<name>libraries/Adafruit_SSD1306</name>
+			<type>2</type>
+			<location>/Users/destroyer/Documents/Arduino/libraries/Adafruit_SSD1306</location>
+		</link>
+		<link>
 			<name>libraries/BatReader</name>
 			<type>2</type>
 			<location>/Users/destroyer/Documents/Arduino/libraries/BatReader</location>
@@ -67,6 +77,11 @@
 			<location>/Users/destroyer/Documents/Arduino/libraries/Oscillator</location>
 		</link>
 		<link>
+			<name>libraries/SPI</name>
+			<type>2</type>
+			<locationURI>ECLIPSE_HOME/arduinoPlugin/packages/arduino/hardware/avr/1.6.17/libraries/SPI</locationURI>
+		</link>
+		<link>
 			<name>libraries/Servo</name>
 			<type>2</type>
 			<locationURI>ECLIPSE_HOME/arduinoPlugin/libraries/Servo/1.1.2</locationURI>
@@ -75,6 +90,11 @@
 			<name>libraries/US</name>
 			<type>2</type>
 			<location>/Users/destroyer/Documents/Arduino/libraries/US</location>
+		</link>
+		<link>
+			<name>libraries/Wire</name>
+			<type>2</type>
+			<locationURI>ECLIPSE_HOME/arduinoPlugin/packages/arduino/hardware/avr/1.6.17/libraries/Wire</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
