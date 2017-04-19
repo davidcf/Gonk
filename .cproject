@@ -37,6 +37,9 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Wire}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Wire/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Adafruit_GFX_Library}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/U8glib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/U8glib/utility}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/PS2X_lib}&quot;"/>
 								</option>
 								<inputType id="io.sloeber.compiler.cpp.sketch.input.1439051080" name="CPP source files" superClass="io.sloeber.compiler.cpp.sketch.input"/>
 							</tool>
@@ -60,6 +63,9 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Wire}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Wire/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Adafruit_GFX_Library}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/U8glib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/U8glib/utility}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/PS2X_lib}&quot;"/>
 								</option>
 								<inputType id="io.sloeber.compiler.c.sketch.input.985507929" name="C Source Files" superClass="io.sloeber.compiler.c.sketch.input"/>
 							</tool>
@@ -83,6 +89,9 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Wire}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Wire/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/Adafruit_GFX_Library}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/U8glib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/U8glib/utility}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Gonk/libraries/PS2X_lib}&quot;"/>
 								</option>
 								<inputType id="io.sloeber.compiler.S.sketch.input.1708022626" name="Assembly source files" superClass="io.sloeber.compiler.S.sketch.input"/>
 							</tool>

@@ -77,6 +77,11 @@
 			<location>/Users/destroyer/Documents/Arduino/libraries/Oscillator</location>
 		</link>
 		<link>
+			<name>libraries/PS2X_lib</name>
+			<type>2</type>
+			<location>/Users/destroyer/Documents/Arduino/libraries/PS2X_lib</location>
+		</link>
+		<link>
 			<name>libraries/SPI</name>
 			<type>2</type>
 			<locationURI>ECLIPSE_HOME/arduinoPlugin/packages/arduino/hardware/avr/1.6.17/libraries/SPI</locationURI>
@@ -85,6 +90,11 @@
 			<name>libraries/Servo</name>
 			<type>2</type>
 			<locationURI>ECLIPSE_HOME/arduinoPlugin/libraries/Servo/1.1.2</locationURI>
+		</link>
+		<link>
+			<name>libraries/U8glib</name>
+			<type>2</type>
+			<location>/Users/destroyer/Documents/Arduino/libraries/U8glib</location>
 		</link>
 		<link>
 			<name>libraries/US</name>

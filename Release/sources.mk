@@ -37,16 +37,24 @@ CPP_DEPS :=
 SUBDIRS := \
 . \
 core/core \
+libraries/Adafruit_GFX_Library \
+libraries/Adafruit_SSD1306 \
 libraries/BatReader \
 libraries/BatReader/BatReader_Example \
 libraries/Gonk/src \
 libraries/LedMatrix \
 libraries/LedMatrix/LedMatrix_Code \
 libraries/Oscillator \
+libraries/PS2X_lib \
+libraries/SPI/src \
 libraries/Servo/src/avr \
 libraries/Servo/src/nrf52 \
 libraries/Servo/src/sam \
 libraries/Servo/src/samd \
 libraries/Servo/src/stm32f4 \
+libraries/U8glib \
+libraries/U8glib/utility \
 libraries/US \
+libraries/Wire/src \
+libraries/Wire/src/utility \
 

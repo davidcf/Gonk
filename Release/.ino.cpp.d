@@ -22,6 +22,14 @@
  /Users/destroyer/Documents/Arduino/libraries/Gonk/src/Gonk_mouths.h \
  /Users/destroyer/Documents/Arduino/libraries/Gonk/src/Gonk_sounds.h \
  /Users/destroyer/Documents/Arduino/libraries/Gonk/src/Gonk_gestures.h \
+ /Applications/sloeber.app/Contents/Eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.17/libraries/SPI/src/SPI.h \
+ /Applications/sloeber.app/Contents/Eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.17/libraries/Wire/src/Wire.h \
+ /Applications/sloeber.app/Contents/Eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.17/cores/arduino/Stream.h \
+ /Users/destroyer/Documents/Arduino/libraries/Adafruit_GFX_Library/Adafruit_GFX.h \
+ /Applications/sloeber.app/Contents/Eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.17/cores/arduino/Print.h \
+ /Users/destroyer/Documents/Arduino/libraries/Adafruit_GFX_Library/gfxfont.h \
+ /Users/destroyer/Documents/Arduino/libraries/Adafruit_SSD1306/Adafruit_SSD1306.h \
+ /Users/destroyer/Documents/Arduino/libraries/PS2X_lib/PS2X_lib.h \
  ../Gonk.ino
 
 /Applications/sloeber.app/Contents/Eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.17/cores/arduino/Arduino.h:
@@ -69,5 +77,21 @@
 /Users/destroyer/Documents/Arduino/libraries/Gonk/src/Gonk_sounds.h:
 
 /Users/destroyer/Documents/Arduino/libraries/Gonk/src/Gonk_gestures.h:
+
+/Applications/sloeber.app/Contents/Eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.17/libraries/SPI/src/SPI.h:
+
+/Applications/sloeber.app/Contents/Eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.17/libraries/Wire/src/Wire.h:
+
+/Applications/sloeber.app/Contents/Eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.17/cores/arduino/Stream.h:
+
+/Users/destroyer/Documents/Arduino/libraries/Adafruit_GFX_Library/Adafruit_GFX.h:
+
+/Applications/sloeber.app/Contents/Eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.17/cores/arduino/Print.h:
+
+/Users/destroyer/Documents/Arduino/libraries/Adafruit_GFX_Library/gfxfont.h:
+
+/Users/destroyer/Documents/Arduino/libraries/Adafruit_SSD1306/Adafruit_SSD1306.h:
+
+/Users/destroyer/Documents/Arduino/libraries/PS2X_lib/PS2X_lib.h:
 
 ../Gonk.ino:

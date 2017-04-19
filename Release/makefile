@@ -9,18 +9,26 @@ RM := rm -f
 # All of the sources participating in the build are defined here
 -include sources.mk
 -include subdir.mk
+-include libraries/Wire/src/utility/subdir.mk
+-include libraries/Wire/src/subdir.mk
 -include libraries/US/subdir.mk
+-include libraries/U8glib/utility/subdir.mk
+-include libraries/U8glib/subdir.mk
 -include libraries/Servo/src/stm32f4/subdir.mk
 -include libraries/Servo/src/samd/subdir.mk
 -include libraries/Servo/src/sam/subdir.mk
 -include libraries/Servo/src/nrf52/subdir.mk
 -include libraries/Servo/src/avr/subdir.mk
+-include libraries/SPI/src/subdir.mk
+-include libraries/PS2X_lib/subdir.mk
 -include libraries/Oscillator/subdir.mk
 -include libraries/LedMatrix/LedMatrix_Code/subdir.mk
 -include libraries/LedMatrix/subdir.mk
 -include libraries/Gonk/src/subdir.mk
 -include libraries/BatReader/BatReader_Example/subdir.mk
 -include libraries/BatReader/subdir.mk
+-include libraries/Adafruit_SSD1306/subdir.mk
+-include libraries/Adafruit_GFX_Library/subdir.mk
 -include core/core/subdir.mk
 -include objects.mk
 
