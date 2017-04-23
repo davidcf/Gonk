@@ -52,8 +52,8 @@ libraries/Servo/src/nrf52 \
 libraries/Servo/src/sam \
 libraries/Servo/src/samd \
 libraries/Servo/src/stm32f4 \
-libraries/U8glib \
-libraries/U8glib/utility \
+libraries/U8glib/src \
+libraries/U8glib/src/clib \
 libraries/US \
 libraries/Wire/src \
 libraries/Wire/src/utility \

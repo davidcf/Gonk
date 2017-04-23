@@ -12,8 +12,8 @@ RM := rm -f
 -include libraries/Wire/src/utility/subdir.mk
 -include libraries/Wire/src/subdir.mk
 -include libraries/US/subdir.mk
--include libraries/U8glib/utility/subdir.mk
--include libraries/U8glib/subdir.mk
+-include libraries/U8glib/src/clib/subdir.mk
+-include libraries/U8glib/src/subdir.mk
 -include libraries/Servo/src/stm32f4/subdir.mk
 -include libraries/Servo/src/samd/subdir.mk
 -include libraries/Servo/src/sam/subdir.mk

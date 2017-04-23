@@ -35,21 +35,22 @@ Gonk Gonk;
 void setup(){
 
 //Inicializamos pantalla
-  //Serial.begin(9600);
+  Serial.begin(9600);
   //display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
   //WriteLCD("Hace mucho tiempo en una galaxia muy muy  lejana...");
 
 //Inicializamos joystick
-  error = ps2x.config_gamepad(8,12,A0,13,true,true);  //(clock, command, attention, data)
-
+  error = ps2x.config_gamepad(8,10,A0,9,true,true); //(clock, command, attention, data)
   if(error == 0)
-  {
-	    Serial.println("Controlador encontrado y configurado");
-	  }
- else
 	  {
-	    Serial.println("Error, mando no encontrado");
-  }
+		    Serial.println("Controlador encontrado y configurado");
+		  }
+	 else
+		  {
+		    Serial.println("Error, mando no encontrado");
+	  }
+
+
 
 //Inicializamos Gonk
   Gonk.init(PIN_YL,PIN_YR,PIN_RL,PIN_RR,true);
@@ -61,14 +62,15 @@ void setup(){
 }
 
 void loop() {
-
-  Gonk.walk(1,1400,1);
+	 // Serial.println(error);
+  //Gonk.walk(1,1400,1);
 //Gonk.sing(S_sleeping);
 
 
 //Serial.println(GetTemp(),1);
 //delay(500);
-
+GamePad();
+//GameJoystick();
 
   }
 
@@ -115,37 +117,29 @@ void WriteLCD(String Text)      // Escritura de una linea en LCD
 }
 void GamePad()                  // Controles del mando
 {
-	 int temp;
+
 	  ps2x.read_gamepad();
 
 	  vibrate = ps2x.Analog(PSAB_BLUE);
 
 	  if(ps2x.Button(PSB_PAD_UP))
 	  {
-	    temp = ps2x.Analog(PSAB_PAD_UP);
-	    Serial.print("Presionaste arriba: ");
-	    Serial.println(temp);
+	    Gonk.walk(0,900,1); // Andando adelante
 	  }
 
 	  else if(ps2x.Button(PSB_PAD_DOWN))
 	  {
-	    temp = ps2x.Analog(PSAB_PAD_DOWN);
-	    Serial.print("Presionaste abajo: ");
-	    Serial.println(temp);
+	    Gonk.walk(0,900,-1); // Andando Atras
 	  }
 
 	  else if(ps2x.Button(PSB_PAD_LEFT))
 	  {
-	    temp = ps2x.Analog(PSAB_PAD_LEFT);
-	    Serial.println("Presionaste izquierda: ");
-	    Serial.print(temp);
+		  Gonk.turn(0,900,1); // Giro a la izquierda
 	  }
 
 	  else if(ps2x.Button(PSB_PAD_RIGHT))
 	  {
-	    temp = ps2x.Analog(PSAB_PAD_RIGHT);
-	    Serial.println("Presionaste derecha: ");
-	    Serial.print(temp);
+		  Gonk.turn(0,900,-1); // Giro a la derecha
 	  }
 
 
@@ -189,45 +183,10 @@ void GamePad()                  // Controles del mando
 	  }
 	  else if(ps2x.ButtonPressed(PSB_START))
 	  {
-	    Serial.println("Presionaste entrar: ");
+		  Gonk.home();
+		   delay(50);
 	  }
 
-
-	  delay(50);
-}
-void GameJoystick()             // Control del Joystick
-{
-	  int ly;
-	  int lx;
-
-	  ps2x.read_gamepad(false,vibrate);
-	  ly = ps2x.Analog(PSS_LY), DEC;
-	  lx = ps2x.Analog(PSS_LX), DEC;
-
-	  if(ly <= 127)
-	  {
-		 ly = -1*ly+127;
-	  }
-	  else
-	  {
-		  ly = -1*(ly-127);
-	  }
-
-	  lx = lx - 127;
-
-	  if(ly == -128)
-	  {
-		  ly = -127;
-	  }
-	  if(lx == 128)
-	  {
-		  lx = 127;
-	  }
-
-	  Serial.print("LY = ");
-	  Serial.print(ly);
-	  Serial.print("    LX = ");
-	  Serial.println(lx);
 
 	  delay(50);
 }
