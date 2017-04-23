@@ -40,17 +40,7 @@ void setup(){
   //WriteLCD("Hace mucho tiempo en una galaxia muy muy  lejana...");
 
 //Inicializamos joystick
-  error = ps2x.config_gamepad(8,10,A0,9,true,true); //(clock, command, attention, data)
-  if(error == 0)
-	  {
-		    Serial.println("Controlador encontrado y configurado");
-		  }
-	 else
-		  {
-		    Serial.println("Error, mando no encontrado");
-	  }
-
-
+  ps2x.config_gamepad(8,10,A0,9,true,true); //(clock, command, attention, data)
 
 //Inicializamos Gonk
   Gonk.init(PIN_YL,PIN_YR,PIN_RL,PIN_RR,true);
