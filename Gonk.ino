@@ -8,6 +8,8 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 #include <PS2X_lib.h>
+#include "SoftwareSerial.h"
+#include "DFRobotDFPlayerMini.h"
 
 PS2X ps2x;
 
@@ -32,22 +34,45 @@ Gonk Gonk;
 #error("Height incorrect, please fix Adafruit_SSD1306.h!");
 #endif
 
+//Mp3
+SoftwareSerial mySoftwareSerial(6, 7); // RX, TX
+DFRobotDFPlayerMini myDFPlayer;
+
+
 void setup(){
 
 //Inicializamos pantalla
   Serial.begin(9600);
-  //display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
-  //WriteLCD("Hace mucho tiempo en una galaxia muy muy  lejana...");
+  display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
+
 
 //Inicializamos joystick
+  WriteLCD("Initializing Gamepad....");
   ps2x.config_gamepad(8,10,A0,9,true,true); //(clock, command, attention, data)
 
+//Inicializacion MP3
+  mySoftwareSerial.begin(9600);
+    Serial.println();
+    Serial.println(F("Initializing Sound ... (May take 3~5 seconds)"));
+
+    if (!myDFPlayer.begin(mySoftwareSerial)) {  //Use softwareSerial to communicate with mp3.
+      Serial.println(F("Error unable to begin"));
+      Serial.println(F("1.Please recheck the connection!"));
+      Serial.println(F("2.Please insert the SD card!"));
+      while(true);
+    }
+    Serial.println(F("Sound Online."));
+    myDFPlayer.volume(30);
+
 //Inicializamos Gonk
+  WriteLCD("Initializing Central....");
   Gonk.init(PIN_YL,PIN_YR,PIN_RL,PIN_RR,true);
   //PONER SONIDO DE INICIALIZACION
   Gonk.home();
   delay(50);
 
+//Mensaje final
+  //WriteLCD("Hace mucho tiempo en una galaxia muy muy  lejana...");
 
 }
 
